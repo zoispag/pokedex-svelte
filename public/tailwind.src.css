@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.poketype {
+  @apply p-1 rounded-lg text-center flex-1;
+}
+
+.type-grass {
+  @apply poketype bg-green-600 text-black;
+}
+
+.type-poison {
+  @apply poketype bg-purple-500 text-white;
+}
+
+.type-fire {
+  @apply poketype bg-orange-500 text-white;
+}
+
+.type-flying {
+  @apply poketype bg-blue-200 text-black;
+}
+
+.type-water {
+  @apply poketype bg-blue-600 text-white;
+}
+
+.type-bug {
+  @apply poketype text-white;
+  background: #729f3f;
+}
+
+.type-normal {
+  @apply poketype bg-gray-400 text-black;
+}
+
+.type-electric {
+  @apply poketype bg-yellow-400 text-black;
+}
+
+.type-ground {
+  @apply poketype bg-yellow-800 text-black;
+}
+
+.type-fairy {
+  @apply poketype bg-pink-300 text-black;
+}
+
+.type-fighting {
+  @apply poketype bg-orange-800 text-white;
+}
+
+.type-psychic {
+  @apply poketype bg-pink-500 text-white;
+}
+
+.type-rock {
+  @apply poketype bg-yellow-700 text-white;
+}
+
+.type-steel {
+  @apply poketype bg-gray-600 text-black;
+}
+
+.type-ice {
+  @apply poketype bg-blue-500 text-black;
+}
+
+.type-ghost {
+  @apply poketype bg-purple-600 text-white;
+}
+
+.type-dragon {
+  @apply poketype bg-teal-700 text-white;
+}
+
+.type-dark {
+  @apply poketype bg-gray-800 text-white;
+}
